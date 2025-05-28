@@ -1,0 +1,56 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Regression Test Suite" verbose="1">
+ 
+ 
+  <test name="Go Rest API Test - Get User">
+    <classes>
+       <class name="com.qa.api.gorest.tests.GetUserTest"/>
+    </classes>
+  </test>
+ 
+ <test name="Go Rest API Test - Create User">
+    <classes>
+       <class name="com.qa.api.gorest.tests.CreateUserTest"/>
+    </classes>
+  </test>
+ 
+ <test name="Go Rest API Test - Update User">
+    <classes>
+       <class name="com.qa.api.gorest.tests.UpdateUserTest"/>
+    </classes>
+  </test>
+ 
+ <test name="Go Rest API Test - Delete User">
+    <classes>
+       <class name="com.qa.api.gorest.tests.DeleteUserTest"/>
+    </classes>
+  </test>
+  
+   <test name="Products API Test - Get Products details ">
+    <classes>
+       <class name="com.qa.api.products.tests.ProductsTest"/>
+    </classes>
+  </test>
+  
+  <test name="Request Response API Test - Get Users details ">
+    <classes>
+       <class name="com.qa.api.reqres.test.ReqResTest"/>
+    </classes>
+  </test>
+  
+  <test name="Credentials API Test - Get Contacts ">
+    <classes>
+       <class name="com.qa.api.contacts.tests.CredentialsTest"/>
+    </classes>
+  </test>
+  
+   <test name="Basic Auth API Test - Basic Auth Test ">
+    <classes>
+       <class name="com.qa.api.basicauth.test.BasicAuthTest"/>
+    </classes>
+  </test>
+ 
+  </suite>
+
+   

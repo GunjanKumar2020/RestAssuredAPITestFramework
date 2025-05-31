@@ -11,7 +11,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelReaderUtil {
 	
-	private static String EXCEL_FILE_PATH="./src/test/resource/testdata/userdata.xlsx";
+	private static String EXCEL_FILE_PATH="./src/test/resources/testdata/userdata.xlsx";
 	private static Workbook workbook;
 	private static Sheet sheet;
 	

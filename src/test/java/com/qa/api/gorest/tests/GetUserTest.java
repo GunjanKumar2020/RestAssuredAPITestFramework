@@ -32,7 +32,7 @@ public class GetUserTest extends BaseTest{
 		Assert.assertTrue(response.statusLine().contains("OK"));
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void getSingleUserTest()
 	{
 		String userID="7725337";

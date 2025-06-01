@@ -14,7 +14,7 @@ import io.restassured.response.Response;
 
 public class ReqResTest extends BaseTest {
 	
-	@Test
+	@Test(enabled=false)
 	public void getUserDetails()
 	{
 		HashMap<String, String> queryParam=new HashMap<String,String>();

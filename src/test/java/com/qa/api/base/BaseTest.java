@@ -2,8 +2,9 @@ package com.qa.api.base;
 
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 
-
+import com.aventstack.chaintest.plugins.ChainTestListener;
 import com.qa.api.client.RestClient;
 
 import io.qameta.allure.restassured.AllureRestAssured;

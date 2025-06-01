@@ -27,7 +27,8 @@ public class CreateUserTest extends BaseTest{
 				{
 			{"Gunjan","male","active"},
 			{"Neha","female","inactive"},
-			{"Vidya","female","inactive"}
+			{"Vidya","female","inactive"},
+			{"Rajesh","male","active"}
 		};
 	}
 	
@@ -37,7 +38,8 @@ public class CreateUserTest extends BaseTest{
 		return ExcelReaderUtil.readDataFromExcelFile(AppConstants.USER_EXEL_SHEET_NAME);
 	}
 	
-	@Test(dataProvider="getUserExcelData")
+	@Test(dataProvider="getUserData")
+	//@Test(dataProvider="getUserExcelData")
 	public void createUserTest(String name,String gender,String status)
 	{
 		

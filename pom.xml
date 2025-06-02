@@ -135,7 +135,7 @@
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
              <!-- <suiteXmlFile>src/test/resources/testrunners/testng.xml</suiteXmlFile>-->
-						 <suiteXmlFile>${suiteXmlFiles}</suiteXmlFile> 
+						 <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> 
 					</suiteXmlFiles>
 					
 				</configuration>
